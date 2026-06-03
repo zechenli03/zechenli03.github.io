@@ -411,6 +411,18 @@ body.theme-luka .news-text {
   font-size: 14px;
 }
 
+body.theme-luka .news-text a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--luka-accent) 45%, transparent);
+  text-underline-offset: 3px;
+}
+
+body.theme-luka .news-text a:hover {
+  color: var(--luka-accent);
+  filter: none;
+}
+
 body.theme-luka .news-date {
   margin-left: 6px;
   color: var(--luka-muted);
